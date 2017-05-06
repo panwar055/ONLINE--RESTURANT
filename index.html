@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Restaurant</title>
+	<meta charset="utf-8">
+	 <mata name="viewport" content="width=device-width,initial-scale=1">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/main.js"></script>		
+</head>
+<body>
+<div id="header">
+<h1 id="h_h1"><marquee position:right-left>ONLINE RESTURANT</marquee></h1>
+	<div class="row">
+  		<div id="h_h2" class="col-6">Address</div>
+  		<div id="h_h3" class="col-6">LogIn</div>
+	</div>
+</div>
+<div class="section">
+<div id="s_col" class="row">
+<div id="s1_col" class="col-4">
+ <form id="form" style="font-size:25px;line-height:50px;">
+<fieldset>
+<table id="table2">
+<legend>Food Items</legend>
+<tr>
+<td width="40%"><p id="paneer"  onmousemove="myFunctionP(this.id)" onmouseout="myFunction()">Paneer</p></td>
+<td width="20%"><span id="paneer" onclick="updateTotal(this.id,150,1)">+</span> </td>
+<td width="20%">150.00</td>
+</tr>
+<tr>
+<td ><p id="chicken"	 onmousemove="myFunctionP(this.id)" onmouseout="myFunction()">Chicken</p></td>
+<td ><span id="chicken" onclick="updateTotal(this.id,200,2)">+</span> </td> 
+<td >200.00</td>
+</tr>
+<tr>
+<td><p id="icecream"   onmousemove="myFunctionP(this.id)" onmouseout="myFunction()">IceCream</p> </td>
+<td ><span id="icecream" onclick="updateTotal(this.id,100,3)">+</span> </td>
+<td>100.00</td>
+</tr>
+<tr>
+<td><p id="roti"  onmousemove="myFunctionP(this.id)" onmouseout="myFunction()">Roti</p> </td>
+<td ><span id="roti" onclick="updateTotal(this.id,10,4)">+</span> </td>
+<td>10.00</td>
+</tr>
+<tr>
+<td> <p id="chinese"  onmousemove="myFunctionP(this.id)" onmouseout="myFunction()">Chinese</p></td>
+<td><span id="chinese" class="span" onclick="updateTotal(this.id,20,5)">+</span> </td>
+<td>20.00</td>
+</tr>
+<tr>
+<td><p id="daal" onmousemove="myFunctionP(this.id)" onmouseout="myFunction()">Daal</p></td>
+<td><span id="daal" onclick="updateTotal(this.id,50,6)">+</span> </td>
+<td>50.00</td>
+</tr>
+<tr>
+<td> <p id="chole" onmousemove="myFunctionP(this.id)" onmouseout="myFunction()">Cholebhature</p></td>
+<td ><span id="chole" onclick="updateTotal(this.id,100,7)">+</span> </td>
+<td>100.00</td>
+</tr>
+</table>
+</fieldset>
+</form>
+</div>
+<div id="s2_col" class="col-4">
+<div id="img">
+<img id="image" src="img/virat.jpg" height="428px" width="405px">
+</div>
+</div>
+<div id="s3_col" class="col-4">
+<div class="row">
+<table id="table">
+<tr id="tr">
+	<th width="50%">Food</th>
+	<th width="20%">Quantity</th>
+	<th width="30%">Price</th>
+	</tr>
+	<tr id="tr">
+	<td id="td1"><p class="col-4" id="payment"></p></td>
+	<td id="td1"><p class="col-4" id="payment1"></p></td>
+	<td id="td1"><p class="col-4" id="payment2"></p></td>
+	</tr>
+</table>
+</div>s
+<p id="bill"><b>Your Total Bill</b></p>
+<table id="table1">
+<tr><td style="width:200px;"><center><div id="totalpayment" ></div></center></td>
+<td style="width:200px;"><center><input type="submit" value="Payment" id="mainbutton" onclick="submit2()"></center></td>	
+</table>
+</div>
+</div>
+</div>
+<div class="footer">
+Online Khana &copy Alright Reserverd 1997-2016
+</div>
+</body>
+</html>

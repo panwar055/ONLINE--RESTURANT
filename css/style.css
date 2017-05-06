@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+
+}
+body
+{
+	margin:0;
+	padding:0;
+
+}
+td span
+{
+    cursor: pointer;
+}
+p
+{
+    font-size: 20px;
+    color: #0000FF;
+    font-family:arial;
+    line-height: 0;
+}
+#bill
+{
+ text-align: center;
+    font-size: 20px;
+    color: #0000FF;
+    font-family:arial;   
+}
+#h_h1
+{
+ text-align: center;
+ font-size: 40px;
+ color: white;
+ font-family:cursive;
+}
+#h_h2
+{
+	text-align: left;
+    color:#00FFFF;
+	border: rgb(123,234,123);
+	font-size: 25px;
+}
+#h_h3
+{
+text-align: right;
+color:#00FFFF;
+/*margin-right: 20px;*/
+border: rgb(123,234,123);
+font-size: 20px;
+}
+#header
+{
+	margin-top: -2%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+	width: 100%;
+	height:30%;
+    font-family: arial;
+	padding-top: 1%;
+    background-color: black;
+}
+@media only screen and (max-width: 12000px) {
+    #header {
+        margin-top: -30px;
+    }
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;height: 500px;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+ [class*="col-"] {
+    float: left;
+    border: 1px solid red;
+}
+#s1_col
+{
+border:1px solid black;
+}
+#s2_col
+{
+border:1px solid black;	
+}
+#img
+{
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 10px;
+    height: 430px;
+    border: 1px solid black;
+}
+#total
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 100px;
+    font-size: 20px;
+    /*border: 1px solid black;*/
+}
+#s3_col
+{
+border:1px solid  black;	
+}
+.footer
+{
+
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 20px;
+	background-color:black;
+    color:white;
+}
+#text
+{
+    width:30px;
+    padding-left: 5px;
+    border-color: black;
+    border-right-color:white; 
+}
+#text:focus
+{
+   outline: 0; 
+   border-color: black;
+   border-right-color: white;
+}
+#numsum
+{
+    width: 30px;
+    border-color: black;
+    border-left-color:white ;
+    background-color: white;
+}
+#numsum:focus
+{
+   outline: 0; 
+   border-color: black;
+   border-left-color: white;
+}
+#main_p
+{
+    margin-top: 120px;
+}
+#myBtn
+{
+    width: 130px;
+    height: 35px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    background-color: rgb(123,234,123);
+    border-radius: 50px;
+    color: black;
+    border:none;
+  /* border:1px solid black;*/
+}
+#myBtn:focus 
+{
+    outline:0;
+}
+#myBtn:hover
+{
+    background-color: black;
+    color:  rgb(123,234,123);
+}
+#payment,#payment1,#payment2
+{
+    margin-top: 25px;
+    height: 210px;
+    font-size: 20px;
+    font-family: arial;
+    line-height: 1.4;
+}
+
+
+#table
+{
+    border-spacing: 0;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#table1
+{
+    
+    margin-left: 20px;
+    border: 1px solid black;
+}
+#table2
+{
+    
+    /*margin-left: -10px;
+    margin-right: -30px;*/
+}
+th
+{
+    border:1px solid black;
+    padding:10px 6px 10px 6px;
+    font-family: arial;
+    font-size: 20px;
+}
+#tr
+{
+    border:1px solid black;
+
+}
+#td1
+{
+    border:1px solid black;
+}
+.col-4
+{
+    border-color: white;
+    padding-left: 10px;
+}
+fieldset
+{
+    margin-right: 20px;
+    margin-left: 5px;
+}
+#mainbutton
+{
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(138, 192, 7);
+    border-style: none;
+    border-radius: 50px;
+}
+#mainbutton:focus
+{
+    outline: 0;
+}
+#mainbutton:hover
+{
+    background-color: black;
+    color: rgb(138, 192, 7);
+}
+#totalpayment
+{
+    height:40px;
+    margin-top:10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: arial;
+    color: green;
+}
+span
+{
+    border-radius: 50px;
+    border:1px solid green;
+    padding: 1px 7px 1px 7px;
+    color: green;
+}
+span:focus {
+    outline:none;
+}
